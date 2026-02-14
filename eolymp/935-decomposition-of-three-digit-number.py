@@ -1,0 +1,5 @@
+n = int(input())
+b = abs(n)
+print(b//100)
+print((b//10)%10)
+print(b%10)
