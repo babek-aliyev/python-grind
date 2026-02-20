@@ -1,7 +1,7 @@
 a = int(input())
 
 arr = list(map(int, input().split()))
-mn = 999999
+mn = arr[0]
 for i in arr:
     if mn>i:
         mn=i
