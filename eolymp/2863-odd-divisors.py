@@ -1,5 +1,9 @@
-def odd_divisors(n):
-    for i in range(1, int(math.sqrt(n)+1,2):
-                   while n%i==0:
-                    print(i)
-                    n/
+def func(n):
+    for i in range(1, n+1):
+        if n%i==0 and i%2==1:
+            print(i)
+        else:
+            continue
+
+n = int(input())
+func(n)
